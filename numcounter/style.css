@@ -71,6 +71,7 @@
 }
 body {
   background-color: var(--background-dark);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .calculator-box {
@@ -79,21 +80,25 @@ body {
   padding: 20px;
   height: 50vh;
   border-radius: 10px;
+  align-self: center;
 }
 .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
+  border: 2px solid salmon;
   /* height: 50vh; */
-  /* height: 100vh; */
+  height: 100vh;
 }
 button {
   background-color: var(--primary-dark);
   border-radius: 15px;
   font-size: 2rem;
-  border-color: var(--border-dark);
   color: var(--text-dark);
+  margin: 5px;
+  border: none;
+  /* set this for a cleaner border look */
+  padding: 10px 15px;
 }
 button:hover {
   background-color: var(--primary-dark-hover);
@@ -109,6 +114,16 @@ button:active {
 .title {
   text-align: center;
   color: var(--title-dark);
+}
+.dark-mode-btn {
+  position: absolute;
+
+  padding: 10px 15px;
+  background-color: var(--primary-dark);
+  color: var(--text-dark);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 /* Light mode overrides */
