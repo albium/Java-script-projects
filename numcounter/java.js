@@ -27,7 +27,6 @@ function numDecrease() {
   // define a
   num--;
   document.getElementById("output").textContent = num;
-  alert(num);
 }
 
 function numIncrease() {
@@ -39,3 +38,7 @@ function Reset() {
   document.getElementById("output").textContent = num;
 }
 // THIS ONE IS BETTER FOR Readability
+
+function toggleTheme() {
+  document.body.classList.toggle("light-mode");
+}

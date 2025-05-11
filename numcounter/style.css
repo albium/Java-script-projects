@@ -73,7 +73,7 @@ body {
   background-color: var(--background-dark);
 }
 
-.calculater-box {
+.calculator-box {
   background-color: var(--card-dark);
   align-content: center;
   padding: 20px;
@@ -109,4 +109,35 @@ button:active {
 .title {
   text-align: center;
   color: var(--title-dark);
+}
+
+/* Light mode overrides */
+body.light-mode {
+  background-color: var(--background-light);
+}
+
+body.light-mode .calculator-box {
+  background-color: var(--card-light);
+}
+
+body.light-mode .title {
+  color: var(--title-light);
+}
+
+body.light-mode #output {
+  color: var(--text-light);
+}
+
+body.light-mode button {
+  background-color: var(--primary-light);
+  color: var(--text-light);
+  border-color: var(--border-light);
+}
+
+body.light-mode button:hover {
+  background-color: var(--primary-light-hover);
+}
+
+body.light-mode button:active {
+  background-color: var(--primary-light-active);
 }
