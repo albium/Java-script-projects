@@ -13,7 +13,7 @@
   /* card color on a dark background ---light mode--- */
   /* Backgrounds */
   --background-light: #ffffff;
-  --surface-light: #f5f5f5;
+  --surface-light: #dcdadafd;
   --card-light: #ffffff;
 
   /* Text */
@@ -132,7 +132,7 @@ body.light-mode {
 }
 
 body.light-mode .calculator-box {
-  background-color: var(--card-light);
+  background-color: var(--surface-light);
 }
 
 body.light-mode .title {
