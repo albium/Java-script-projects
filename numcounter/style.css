@@ -129,6 +129,13 @@ button:active {
   cursor: pointer;
 }
 
+body,
+.calculator-box,
+button {
+  transition: background-color 0.3s, color 0.3s;
+}
+/* smooth transaction between light and dark mode */
+
 /* Light mode overrides */
 body.light-mode {
   background-color: var(--background-light);

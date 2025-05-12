@@ -3,19 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; base-uri 'none';"
+    />
+    <!-- prevents java script injection -->
     <link rel="stylesheet" href="style.css" />
-    <title>number range</title>
+    <title>Number Range</title>
   </head>
   <body>
-    <button class="dark-mode-btn" onclick="toggleTheme()">Toggle Theme</button>
+    <button id="themeToggleBtn">Toggle Theme</button>
 
     <div class="container">
       <div class="calculator-box">
-        <h1 class="title">Number counter</h1>
+        <h1 class="title">Number Counter</h1>
         <div id="output"></div>
-        <button onclick="numDecrease()">Decrease</button>
-        <button onclick="Reset()">Reset</button>
-        <button onclick="numIncrease()">Increment</button>
+        <button id="decreaseBtn">Decrease</button>
+        <button id="resetBtn">Reset</button>
+        <button id="increaseBtn">Increment</button>
       </div>
     </div>
 
