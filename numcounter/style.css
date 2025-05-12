@@ -77,8 +77,8 @@ body {
 .calculator-box {
   background-color: var(--card-dark);
   align-content: center;
-  padding: 20px;
-  height: 50vh;
+  padding: 100px 30px;
+  /* height: 50vh; */
   border-radius: 10px;
   align-self: center;
 }
