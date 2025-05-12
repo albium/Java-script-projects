@@ -99,6 +99,7 @@ button {
   border: none;
   /* set this for a cleaner border look */
   padding: 10px 15px;
+  cursor: pointer;
 }
 button:hover {
   background-color: var(--primary-dark-hover);
