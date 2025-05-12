@@ -134,7 +134,7 @@ body,
 button {
   transition: background-color 0.3s, color 0.3s;
 }
-/* smooth transaction between light and dark mode */
+/* smooth transaction between light and dark mode  */
 
 /* Light mode overrides */
 body.light-mode {
