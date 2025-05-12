@@ -100,12 +100,14 @@ button {
   /* set this for a cleaner border look */
   padding: 10px 15px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 button:hover {
   background-color: var(--primary-dark-hover);
 }
 button:active {
   background-color: var(--primary-dark-active);
+  transform: scale(1.1);
 }
 #output {
   font-size: 5rem;
