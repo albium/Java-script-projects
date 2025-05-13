@@ -14,7 +14,7 @@ function numCalc() {
   num = Math.floor(Math.random() * 6) + 1;
 
   // Display the corresponding dice emoji (subtract 1 because arrays are 0-indexed)
-  output.textContent = diceFaces[num - 1];
+  button.textContent = diceFaces[num - 1];
 
   // Print the number to the browser console (useful for debugging)
   console.log("Rolled:", num);
