@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 :root {
   --background-color: tomato;
@@ -68,4 +69,18 @@
 
   /* Shadows (if needed) */
   --shadow-dark: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.dice-box {
+  align-self: center;
+  box-shadow: var(--shadow-dark);
+}
+button {
+  font-size: 10rem;
+  border-radius: 5px;
+  border: none;
 }
